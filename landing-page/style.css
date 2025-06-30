@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* height: 100vh; */
+}
+
+.container {
+  display: flex;
+  max-width: 968px;
+  flex-direction: column;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  margin-top: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex: 1;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.top-container {
+  height: 900px;
+  background-color: aqua;
+}
